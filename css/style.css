@@ -2,7 +2,7 @@ header.header-nav {
   border-bottom: 2px black solid;
 }
 
-.header-link {
+a.header-link {
   font-style: italic;
-  font-size: 10em;
+  font-size: 1.5em;
 }
