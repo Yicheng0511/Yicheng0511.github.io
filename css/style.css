@@ -5,4 +5,5 @@ header.header-nav {
 a.header-link {
   font-style: italic;
   font-size: 1.5em;
+  align-self: flex-end;
 }
