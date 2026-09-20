@@ -1,9 +1,14 @@
 header.header-nav {
-  border-bottom: 2px black solid;
+  border-bottom: 1px black solid;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 a.header-link {
-  font-style: italic;
-  font-size: 1.5em;
-  align-self: flex-end;
+  font-style: normal;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-right: 20px;
 }
