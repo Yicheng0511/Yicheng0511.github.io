@@ -1,3 +1,7 @@
 header.header-nav {
   border-bottom: 2px black solid;
 }
+
+a.header-link {
+  font-size: large;
+}
