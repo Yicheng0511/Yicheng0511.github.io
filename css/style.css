@@ -12,3 +12,7 @@ a.header-link {
   padding-right: 5px;
   margin-right: 20px;
 }
+
+.intro {
+  display: flex;
+}
