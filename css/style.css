@@ -17,8 +17,8 @@ a.header-link {
   display: flex;
 }
 
-img.profile {
-  margin-top: 4px;
-  margin-left: 4px;
-  margin-right: 4px;
+.profile {
+  width: 30%;
+  height: 40%;
+  padding: 4px;
 }
