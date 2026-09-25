@@ -19,6 +19,12 @@ a.header-link {
 
 .profile {
   width: 30%;
-  height: 40%;
+  height: auto;
   padding: 4px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
 }
