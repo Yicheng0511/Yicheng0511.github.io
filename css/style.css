@@ -85,11 +85,12 @@ body {
 
 #contact-nav {
   font-size: 24px;
-  margin-top: 8px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
 }
 
 .contact-link:visited {
   color: white;
+  margin-right: 20px;
 }
