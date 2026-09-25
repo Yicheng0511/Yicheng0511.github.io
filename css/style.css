@@ -90,7 +90,7 @@ body {
   flex-direction: row;
 }
 
-.contact-link:visited {
-  color: white;
+a.contact-link:any-link {
   margin-right: 20px;
+  color: white;
 }
