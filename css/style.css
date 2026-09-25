@@ -1,8 +1,8 @@
 header.header-nav {
   border-bottom: 1px black solid;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 a.header-link {
@@ -15,23 +15,57 @@ a.header-link {
 
 .intro {
   display: flex;
+  background-color: lightblue
+}
+
+body {
+  margin: 0px;
 }
 
 .profile {
-  width: 30%;
+  width: 40%;
   height: auto;
-  padding: 4px;
+  margin: 40px 0px 40px 40px;
 }
 
-.profile-info {
+.profile-section {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
   justify-content: center;
   align-items: center;
+  margin: 40px 40px 40px 0px;
+  background-color: white;
 }
 
 #profile-name {
   font-style: normal;
   font-size: 52px;
+  text-align: center;
+  margin: 20px;
+  color: black;
+}
+
+#profile-role {
+  font-style: normal;
+  font-size: 36px;
+  text-align: center;
+  margin: 20px;
+  color: black;
+}
+
+#profile-description {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  color: black;
+}
+
+#learn-more {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  width: 10%;
+  height: 1.5em
 }
