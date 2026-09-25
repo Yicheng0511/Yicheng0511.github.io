@@ -69,4 +69,12 @@ body {
   width: auto;
   height: auto;
   padding: 8px;
+  margin: 12px;
+  border-radius: 12px;
+}
+
+#contact-footer {
+  background-color: black;
+  color: white;
+  padding: 20px
 }
