@@ -1,21 +1,22 @@
 header.header-nav {
   border-bottom: 1px black solid;
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  justify-content: center;
+  padding: 12px 0px;
+  display: flex;
 }
 
 a.header-link {
   font-style: normal;
   font-size: 24px;
-  padding-left: 10px;
-  padding-right: 5px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .intro {
   display: flex;
-  background-color: lightblue
+  background-color: lightblue;
+  padding: 40px;
 }
 
 body {
@@ -23,42 +24,36 @@ body {
 }
 
 .profile {
-  width: 40%;
-  height: auto;
-  margin: 40px 0px 40px 40px;
+  width: 30%;
 }
 
 .profile-section {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
   justify-content: center;
   align-items: center;
-  margin: 40px 40px 40px 0px;
   background-color: white;
+  padding: 40px;
+  text-align: center;
+  color: black;
 }
 
 #profile-name {
   font-style: normal;
   font-size: 52px;
-  text-align: center;
-  margin: 20px;
-  color: black;
+  margin-bottom: 8px;
 }
 
 #profile-role {
   font-style: normal;
   font-size: 36px;
-  text-align: center;
-  margin: 20px;
-  color: black;
+  margin-top: 0px;
+  margin-bottom: 12px;
 }
 
 #profile-description {
   font-size: 20px;
-  margin: 20px;
-  text-align: center;
-  color: black;
 }
 
 #learn-more {
@@ -66,8 +61,6 @@ body {
   color: white;
   text-align: center;
   font-size: 24px;
-  width: auto;
-  height: auto;
   padding: 8px;
   margin: 12px;
   border-radius: 12px;
